@@ -1,4 +1,3 @@
-O 1.
 ![Dashboard de Detecção de Fraude](dashboard_fraude_git.png)
 # Pipeline de dados e modelo
 
