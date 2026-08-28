@@ -2,7 +2,7 @@
 
 O projeto segue a arquitetura **medalhão** (bronze / silver / gold) no Databricks:
 
-- **Bronze:** dataset original de fraude em cartão de crédito (Kaggle, `mlg-ulb/creditcardfraud`) carregado como tabela Delta
+- **Bronze:** dataset original de fraude em cartão de crédito carregado como tabela Delta
 - **Silver:** remoção de duplicatas reais, criação de identificador único por transação
 - **Gold:** features numéricas normalizadas (Amount e Time escalados), prontas para o modelo
 
