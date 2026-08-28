@@ -1,3 +1,5 @@
+
+![Dashboard de Detecção de Fraude](dashboard_fraude_git.png)
 # Pipeline de dados e modelo
 
 O projeto segue a arquitetura **medalhão** (bronze / silver / gold) no Databricks:
