@@ -57,11 +57,4 @@ Databricks
 Power Query
 DAX
 PySpark / MLflow
-Como usar
-Abra o arquivo .pbix no Power BI Desktop
-Configure a conexão com o workspace do Databricks (credenciais/cluster)
-Atualize os dados
-Explore os visuais interativos
-Observações
 
-Os dados utilizados neste projeto são [fictícios / anonimizados] e servem apenas para fins de demonstração e estudo.
