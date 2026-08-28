@@ -22,7 +22,7 @@ Pipeline de dados e modelo
 
 O projeto segue a arquitetura medalhão (bronze / silver / gold) no Databricks:
 
-Bronze: dataset original de fraude em cartão de crédito (Kaggle, mlg-ulb/creditcardfraud) carregado como tabela Delta
+Bronze: dataset original de fraude em cartão de crédito (mlg-ulb/creditcardfraud) carregado como tabela Delta
 Silver: remoção de duplicatas reais, criação de identificador único por transação
 Gold: features numéricas normalizadas (Amount e Time escalados), prontas para o modelo
 Modelo de Machine Learning
@@ -39,7 +39,7 @@ O Power BI se conecta a essas tabelas finais no Databricks para alimentar os vis
 
 Metodologia da análise
 
-O projeto partiu do dataset público de fraude em cartão de crédito (Kaggle), carregado no Databricks como tabela Delta na camada bronze.
+O projeto partiu do dataset público de fraude em cartão de crédito, carregado no Databricks como tabela Delta na camada bronze.
 
 Na etapa de exploração, foram verificados a proporção entre transações legítimas e fraudulentas (extremamente desbalanceada), a presença de valores nulos, e o comportamento da variável Amount (valor da transação) e Time (tempo em segundos desde a primeira transação).
 
